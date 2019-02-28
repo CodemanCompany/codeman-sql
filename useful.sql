@@ -5,4 +5,8 @@
 -- ╚██████╗╚██████╔╝██████╔╝███████╗██║ ╚═╝ ██║██║  ██║██║ ╚████║
 --  ╚═════╝ ╚═════╝ ╚═════╝ ╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
 
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass';
+-- Update password
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'password';
+
+-- Create user
+CREATE USER 'man_master'@'localhost' IDENTIFIED BY 'password';
